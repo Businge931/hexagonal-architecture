@@ -2,7 +2,7 @@ package api
 
 import "net/http"
 
-//ProductHandler ...
+// ProductHandler ...
 type ProductHandler interface {
 	Get(http.ResponseWriter, *http.Request)
 	Post(http.ResponseWriter, *http.Request)

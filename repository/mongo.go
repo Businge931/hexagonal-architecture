@@ -27,7 +27,7 @@ func newMongoClient(mongoServerURL string, timeout int) (*mongo.Client, error) {
 	if err != nil {
 		return nil, err
 	}
-	//We could ping the server to test connectivity if we want
+	// We could ping the server to test connectivity if we want
 
 	return client, nil
 }
